@@ -8,7 +8,7 @@ This project is a simple React 19 application using a responsive design
 2. mobile device
 ![image](https://github.com/user-attachments/assets/f9a164dc-e296-47a9-b11d-a184fd1ebd48)
 
-3. tablet device
+4. tablet device   
 ![image](https://github.com/user-attachments/assets/c1af1144-77d8-4028-b6e5-862a08378f42)
 
 ### 🚀 Installation & Setup
