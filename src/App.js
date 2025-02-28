@@ -151,7 +151,7 @@ function App() {
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
-                      src="/images/tips_01.jpg"
+                      src="/images/SOne_index_banner.jpg"
                       class="d-block w-auto"
                       style={{ height: "435px" }}
                       alt="casousel01"
@@ -160,7 +160,7 @@ function App() {
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
-                      src="/images/tips_02.jpg"
+                      src="/images/SOne_index_banner.jpg"
                       class="d-block w-auto"
                       style={{ height: "435px" }}
                       alt="casousel01"
