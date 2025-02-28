@@ -1,8 +1,16 @@
+@font-face {
+  font-family: "Conv_supermarket";
+  src: url("../public/fonts/supermarket.ttf");
+  src: local("☺"), url("../public/fonts/supermarket.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  /* font-family:'Conv_supermarket'; */
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:'Conv_supermarket';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +19,314 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*-----------Supermarket----------------*/
+
+.Su_white21 {
+  font-family: Conv_supermarket;
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.Su_black18 {
+  font-family: Conv_supermarket;
+  color: #252525;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.Su_black21 {
+  font-family: Conv_supermarket;
+  color: #252525;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.Su_orange21 {
+  font-family: Conv_supermarket;
+  color: #f05a28;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+a:link.link_Swhite21,
+a:visited.link_Swhite21,
+a:active.link_Swhite21 {
+  font-family: Conv_supermarket;
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 21px;
+  text-decoration: none;
+}
+a:hover.link_Swhite21 {
+  font-family: Conv_supermarket;
+  color: #f05a28;
+  font-size: 17px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+a:link.link_Swhite17,
+a:visited.link_Swhite17,
+a:active.link_Swhite17 {
+  font-family: Conv_supermarket;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 21px;
+  text-decoration: none;
+}
+a:hover.link_Swhite17 {
+  font-family: Conv_supermarket;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 21px;
+  text-decoration: none;
+
+  /*----------Tahoma---------------*/
+}
+.text_black13 {
+  font-family: Tahoma;
+  color: #252525;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 16px;
+}
+
+.text_black16 {
+  font-family: Tahoma;
+  color: #252525;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.text_orange16 {
+  font-family: Tahoma;
+  color: #f05a28;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.text_orange20 {
+  font-family: Tahoma;
+  color: #f05a28;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.text_black14 {
+  font-family: Tahoma;
+  color: #252525;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 17px;
+}
+.text_orange13 {
+  font-family: Tahoma;
+  color: #f05a28;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 15px;
+}
+
+.text_white13 {
+  font-family: Tahoma;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 15px;
+}
+
+.text_white10 {
+  font-family: Tahoma;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 11px;
+}
+
+a:link.link_Tblack13,
+a:visited.link_Tblack13,
+a:active.link_Tblack13 {
+  font-family: Tahoma;
+  color: #252525;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:hover.link_Tblack13 {
+  font-family: Tahoma;
+  color: #f05a28;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:link.link_Twhite13,
+a:visited.link_Twhite13,
+a:active.link_Twhite13 {
+  font-family: Tahoma;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:hover.link_Twhite13 {
+  font-family: Tahoma;
+  color: #f05a28;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:link.link_T-black13,
+a:visited.link_T-black13,
+a:active.link_T-black13 {
+  font-family: Tahoma;
+  color: #252525;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:hover.link_T-black13 {
+  font-family: Tahoma;
+  color: #252525;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+a:link.link_T-black14,
+a:visited.link_T-black14,
+a:active.link_T-black14 {
+  font-family: Tahoma;
+  color: #252525;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  text-decoration: none;
+}
+a:hover.link_T-black14 {
+  font-family: Tahoma;
+  color: #f05a28;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.formLoginsearch {
+  background-color: #ffffff;
+  border: none;
+  width: 210px;
+  height: 21px;
+}
+
+.formLogintype {
+  background-color: #ffffff;
+  border: #f05a28 solid 1px;
+  width: 170px;
+  height: 25px;
+}
+.formLoginsend {
+  background-color: #ffffff;
+  border: none;
+  width: 155px;
+  height: 21px;
+}
+.formLogincontact {
+  background-color: #ffffff;
+  border: #f05a28 solid 1px;
+  width: 250px;
+  height: 21px;
+}
+.formLoginmessage {
+  background-color: #ffffff;
+  border: #f05a28 solid 1px;
+  width: 630px;
+  height: 100px;
+}
+.formLogincontact2 {
+  background-color: #ffffff;
+  border: #f05a28 solid 1px;
+  width: 265px;
+  height: 21px;
+}
+.formLoginmessage2 {
+  background-color: #ffffff;
+  border: #f05a28 solid 1px;
+  width: 265px;
+  height: 100px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: url("../public/images//SOne_index_bgmenu02.png") repeat-x center top;
+  padding: 10px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+  .menu.active {
+    display: flex;
+  }
+  .menu-icon {
+    display: block;
+    color: white;
+  }
+}
+
+.bg-orange {
+  background: #f05a28;
+}
+
+.bg-black {
+  background: rgba(0, 0, 0, 0.8);
+}
+
