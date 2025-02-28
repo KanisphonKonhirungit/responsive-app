@@ -1,0 +1,9 @@
+.custom-carousel .carousel-indicators {
+    position: absolute;
+    bottom: -40px;
+  }
+  
+  .carousel-container {
+    position: relative;
+    padding-bottom: 50px;
+  }
